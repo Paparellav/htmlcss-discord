@@ -17,8 +17,8 @@ html {
     font-size: 62.5%;
 }
 
-img {
-    width: 100%;
+/* img {
+    width: 100%; */
 }
 
 ul {
@@ -189,4 +189,42 @@ header {
     margin: 2em auto;
     text-align: center;
 
+}
+
+/* FOOTER */
+footer {
+    height: 600px;
+    background-color: #23272a;
+}
+
+.left-footer-col {
+    width: 30%;
+
+    /* test */
+    height: 400px;
+}
+
+.left-footer-col h2 {
+    margin: 1em 0;
+    width: 50%;
+    font-size: 2.5em;
+    color: #8ea1e1;
+}
+
+.left-footer-col img {
+    width: 20px;
+}
+
+.left-footer-col span {
+    color: white;
+}
+
+.social-logo {
+    margin-top: 1em;
+    color: white;
+    font-size: 1.5em;
+}
+
+.social-logo i {
+    width: 1.5em;
 }
