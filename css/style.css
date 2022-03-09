@@ -49,13 +49,19 @@ ul {
     color: white;
 }
 
+.purple-btn {
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
 
 /* HEADER */
 header {
     background-color: #3161e0;
-    height: 60px;
     line-height: 60px;
-
 }
 
 .container {
@@ -131,3 +137,56 @@ header {
     margin-bottom: 1em;
 }
 
+/* ADVANTAGES */
+.advantages {
+    padding: 8em;
+}
+
+.advantage-img {
+    width: 70%;
+}
+
+.advantage-text {
+    width: 30%;
+}
+
+.advantage-text h1 {
+    margin-top: 1em;
+    font-size: 4.1em;
+    color: #23272a;
+}
+
+.advantage-text p {
+    width: 75%;
+    margin-top: 2em;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+.content-bottom {
+    text-align: center;
+    color: #23272a;
+}
+
+.content-bottom h1 {
+    font-size: 4.1em;
+}
+
+.content-bottom p {
+    margin-top: 2em;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+.last-title {
+    font-size: 3em;
+    text-align: center;
+    color: #23272a;
+}
+
+.button-bottom {
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
+
+}
