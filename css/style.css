@@ -60,6 +60,7 @@ ul {
 
 /* HEADER */
 header {
+    height: 60px;
     background-color: #3161e0;
     line-height: 60px;
 }
@@ -227,4 +228,48 @@ footer {
 
 .social-logo i {
     width: 1.5em;
+}
+
+.side-footer-col li {
+    list-style: none;
+    color: white;
+    line-height: 2em;
+    font-size: 1.5em;
+    margin-right: 6em;
+}
+
+li > h3 {
+    color: #8ea1e1;
+    margin-top: 2em;
+}
+
+hr {
+    border-color: #8ea1e1;
+    margin-top: 3em;
+}
+
+.logo-footer {
+    margin-top: 3em;
+}
+
+footer .footer-button {
+    padding: .8em 1.6em;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    background-color: #8ea1e1;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer a {
+    position: absolute;
+    top: 3em;
+    right: 1em;
+}
+
+#wave img {
+    display: block;
 }
